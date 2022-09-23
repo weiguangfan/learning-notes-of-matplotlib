@@ -31,9 +31,23 @@ Attributes:
 
 Parameters:
     fig:Figure
+        轴心是在图中建立的。
+    rect:tuple (left, bottom, width, height).
+        轴线是建立在矩形rect中的。
+        rect是在图中的坐标。
+    sharex, sharey:Axes, optional
+        x或y轴与输入轴中的x或y轴共享。
+    frameon:bool, default: True
+        轴的框架是否可见。
+    box_aspect:float, optional
+        为Axes盒子设置一个固定的长宽比，即高度和宽度的比例。
+        详见set_box_aspect。
+    **kwargs
+        其他可选的关键字参数:
 
-
-
+Returns:
+Axes:
+新的Axes对象。
 
 """
 
