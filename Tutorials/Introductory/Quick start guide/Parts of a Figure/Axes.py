@@ -1,8 +1,8 @@
 """
-Axes是一个附在图表上的artist，
+Axes是一个附在图表 a Figure 上的artist，
 它包含了一个用于绘制数据的区域，
 通常包括两个（三个，如果是3D）Axis对象（注意Axes和Axis的区别），
-它提供了刻度和刻度标签，
+它提供了刻度ticks 和刻度标签tick labels ，
 为Axes中的数据提供比例scale。
 
 每个Axes也有一个标题（通过set_title()设置），

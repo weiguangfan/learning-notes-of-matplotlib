@@ -10,8 +10,8 @@ matplotlib.pyplot.subplots(
                             gridspec_kw=None,
                             **fig_kw):
 
-创建一个图和一组子图。
-这个实用的包装器使得在一次调用中就能方便地创建子图的普通布局，包括包围的图对象。
+创建 a figure和 a set of subplots。
+这个实用的包装器使得在一次调用中就能方便地创建subplots的普通布局，包括包围的 figure object。
 Parameters
     nrows, ncols: int, default: 1
         子图网格的行数/列数。

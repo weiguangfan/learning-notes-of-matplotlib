@@ -1,8 +1,11 @@
 """
-整个图。
-图记录了所有的子轴、一组 "特殊 "的艺术家（标题、图例、色条等），甚至是嵌套的子图。
+整个图 The whole figure。
+图记录了
+所有的子轴 all the child Axes、
+a group of 'special' Artists （标题titles、图例figure legends、色条colorbars等），
+甚至是嵌套的子图 nested subfigures。
 
-创建一个新图的最简单方法是使用pyplot。
+创建一个新图 a new Figure的最简单方法是使用pyplot。
 
 """
 import matplotlib as mpl
