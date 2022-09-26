@@ -10,7 +10,7 @@ Axes是一个附在图表 a Figure 上的artist，
 和一个Y标签（通过set_ylabel()设置）。
 
 Axes class及其成员函数是使用OOP接口的主要切入点，
-并在其上定义了大多数绘图方法（如上图所示的ax.plot()，使用了plot方法）。
+并在其上定义了大多数绘图方法 the plotting methods （如上图所示的ax.plot()，使用了plot方法）。
 """
 
 

@@ -14,6 +14,7 @@ class matplotlib.axes.Axes(
                             **kwargs)
 
 Bases: _AxesBase
+
 The Axes包含大多数图形元素：Axis轴、Tick勾线、Line2D、Text文本、Polygon多边形等，并设置坐标系。
 
 Axes实例通过callbacks属性支持回调，
