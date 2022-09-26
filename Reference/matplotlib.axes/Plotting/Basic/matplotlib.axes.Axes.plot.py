@@ -13,7 +13,7 @@ plot([x],y,[fmt],[x2],y2,[fmt2],...,**kwargs)
 
 点或线节点的坐标由x、y给出。
 
-可选参数fmt是定义基本格式化的一种方便方式，如颜色、标记和线条样式。
+可选参数fmt是定义基本格式化的一种方便方式，如颜色color、标记marker和线条样式 linestyle。
 它是一种快捷的字符串符号，在下面的注释部分有描述。
 plot(x, y)        # plot x and y using default line style and color
 plot(x, y, 'bo')  # plot x and y using blue circle markers
